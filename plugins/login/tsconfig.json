@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig-base.json",
+  "compilerOptions": {
+    "composite": true,
+    "rootDir": "src",
+    // "outDir": "../../dist/plugins/login",
+    "outFile": "../../dist/plugins/login/app.js",
+    "declaration": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "declarationMap": true
+  },
+  // "references": [{ "path": "../../shared/common/" }],
+  "include": ["src", "globals.d.ts"],
+  "exclude": ["./**/*.spec.ts", "./**/*.spec.tsx", "./**/*.test.tsx", "**/node_modules/**/*"]
+}

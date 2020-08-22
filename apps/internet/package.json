@@ -1,0 +1,12 @@
+{
+  "name": "@enterprise/internet",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --progress --mode development",
+    "build:prod": "webpack --progress --mode production --uglify true",
+    "start": "webpack-dev-server --mode development --port 8081"
+  },
+  "dependencies": {
+    "@enterprise/plugins": "1.0.0"
+  }
+}

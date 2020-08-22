@@ -1,0 +1,3 @@
+Simple Login React Login Example borrowed from ...
+https://github.com/creativesuraj/react-material-ui-login
+https://github.com/SinghDigamber/react-login-signup-ui-template

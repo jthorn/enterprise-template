@@ -1,0 +1,20 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier", "tslint-react-hooks"],
+  "linterOptions": {
+    "exclude": ["config/**/*.js", "node_modules/**/*.ts", "*.png"]
+  },
+  "rules": {
+    "interface-name": [true, "never-prefix"],
+    "interface-over-type-literal": false,
+    "member-access": [true, "no-public"],
+    "no-console": false,
+    "no-unnecessary-type-assertion": true,
+    "object-literal-sort-keys": false,
+    "react-hooks-nesting": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "jsRules": {
+    "object-literal-sort-keys": false
+  }
+}
