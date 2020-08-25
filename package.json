@@ -13,7 +13,8 @@
     "lint-apps": "prettier ./apps/** --c",
     "lint-plugins": "prettier ./plugins/** --c",
     "lint-shared": "prettier ./shared/** --c",
-    "lint:fix": "concurrently \"yarn:lint-* --write\""
+    "lint:fix": "concurrently \"yarn:lint-* --write\"",
+    "install-globals": "npm install --global concurrently prettier tslint"
   },
   "dependencies": {
     "apollo-boost": "^0.4.9",
